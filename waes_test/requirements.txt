@@ -1,0 +1,9 @@
+bottle==0.12.13
+configparser==3.5.0
+coverage==4.4.1
+gevent==1.2.2
+greenlet==0.4.12
+gunicorn==19.7.1
+mock==2.0.0
+pylint==1.7.4
+WebTest==2.0.28

@@ -1,0 +1,3 @@
+curl -i -XPOST -H 'Content-Type: application/json' localhost:8088/v1/diff/1/right -d '{"payload": "aGVsbG8===="}'
+curl -i -XPOST -H 'Content-Type: application/json' localhost:8088/v1/diff/1/left -d '{"payload": "aGVsbG8===="}'
+curl -i -XGET localhost:8088/v1/diff/1
