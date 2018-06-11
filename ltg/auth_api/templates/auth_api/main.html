@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LTG Test</title>
+    <head>
+    <title>Python Social Auth</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Login Google Ouath2</h3>
+          </div>
+          <div class="panel-body">
+              {% if user.is_authenticated %}
+                  <a class="btn btn-default" href="{% url "logout" %}?next={% url "main" %}">Logout</a>
+                  <br />
+                  <div>
+                    <p>Auth token: {{ access_token }}</p>
+                    <p>Refresh token: {{ refresh_token }}</p>
+                    <p>User Id: {{ user.id }}</p>
+                  </div>
+              {% else %}
+                 <a class="btn btn-default" href="{% url "social:begin" "google-oauth2" %}?next={% url "main" %}">Login</a>
+              {% endif %}
+          </div>
+    </div>
+</body>
+</html>

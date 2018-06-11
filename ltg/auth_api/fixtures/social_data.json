@@ -1,0 +1,1 @@
+[{"model": "default.usersocialauth", "pk": 3, "fields": {"user": 1, "provider": "google-oauth2", "uid": "apelsin1983@gmail.com", "extra_data": "{\"token_type\": \"Bearer\", \"expires\": 3600, \"refresh_token\": \"1/g1ATPfjgXwSNVS0QApkVTF5VA0tAlQ5j8ZRjTe8EA-0\", \"access_token\": \"ya29.CjHSAnnvwiCs39-ZcdL9fo48e8q4TjbRnWw9Hz2yLmqQ1UvOxAkVm5F10N_dQVhFO2BE\"}"}}]

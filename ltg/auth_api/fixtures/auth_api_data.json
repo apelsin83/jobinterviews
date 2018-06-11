@@ -1,0 +1,7 @@
+[{"model": "auth_api.customuser", "pk": 1,
+  "fields": {"password": "!dSBvZeFNhurdxqPAnfX0LCDW6Y5Ot4ggRSSzyR7W",
+    "last_login": "2016-04-28T07:21:44.459Z", "is_superuser": false,
+    "username": "apelsin1983", "first_name": "Vasily", "last_name": "L", "email": "apelsin1983@gmail.com",
+    "is_staff": false, "is_active": true, "date_joined": "2016-04-27T12:36:13.934Z",
+    "token": "ya29.CjHSAnnvwiCs39-ZcdL9fo48e8q4TjbRnWw9Hz2yLmqQ1UvOxAkVm5F10N_dQVhFO2BE",
+    "groups": [], "user_permissions": []}}]
